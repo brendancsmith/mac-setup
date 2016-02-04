@@ -49,7 +49,7 @@ killall Dock
 # ---------- SCREENSHOTS ----------
 
 # Change the screenshot location
-SCREENSHOT_DIR="~/Dropbox/Screenshots"
+SCREENSHOT_DIR="$HOME/Dropbox/Screenshots"
 mkdir -p $SCREENSHOT_DIR
 defaults write com.apple.screencapture location $SCREENSHOT_DIR
 killall SystemUIServer
