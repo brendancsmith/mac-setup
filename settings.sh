@@ -57,7 +57,10 @@ killall SystemUIServer
 # ---------- FINDER ----------
 
 # Show hidden files
-defaults write com.apple.finder AppleShowAllFiles -bool YES
+# defaults write com.apple.finder AppleShowAllFiles -bool YES
+
+# Show user library folder
+chflags nohidden ~/Library/
 
 # Show full path in title
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
