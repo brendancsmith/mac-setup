@@ -56,8 +56,8 @@ killall SystemUIServer
 
 # ---------- FINDER ----------
 
-# Show hidden files
-# defaults write com.apple.finder AppleShowAllFiles -bool YES
+# Don't show hidden files (dotfiles)
+defaults write com.apple.finder AppleShowAllFiles -bool NO
 
 # Show user library folder
 chflags nohidden ~/Library/
