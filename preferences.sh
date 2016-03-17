@@ -64,6 +64,9 @@ defaults write com.apple.ImageCapture disableHotPlug -bool true
 # Don't store .DS_Store files on network shares
 defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 
+# Disable accent menu when holding a key. Repeat the key instead.
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+
 
 # TODO: need to boot into recovery mode for this
 # Hide spotlight button in menu bar
