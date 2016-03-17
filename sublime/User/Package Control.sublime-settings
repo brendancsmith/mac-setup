@@ -1,0 +1,34 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AlignTab",
+		"All Autocomplete",
+		"Better CoffeeScript",
+		"Emmet",
+		"GitGutter",
+		"Github Tools",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Monokai Extended",
+		"Package Control",
+		"Project Manager",
+		"Prolog",
+		"Python Nose Testing Snippets",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-flake8",
+		"TabsExtra",
+		"Theme - Soda",
+		"WordCount",
+		"Zen Tabs"
+	],
+	"repositories":
+	[
+	]
+}
