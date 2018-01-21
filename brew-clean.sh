@@ -5,4 +5,5 @@ brew cleanup -s
 brew cask cleanup
 # now diagnostic
 brew missing
+brew prune
 brew doctor
